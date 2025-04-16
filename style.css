@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+height: 100vh;
+width: 100%;
+background-color: #222;
+}
+
+.parent_section{
+    width: 30%;
+    border-radius: 40px;
+    background-image:linear-gradient(135deg,#00feba,#5b548a) ;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.parent_section .header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.parent_section .header .input{
+border-radius: 8px;
+padding: 10px;
+border: none;
+outline: none;
+
+}
+
+
+.parent_section .header .button .serch{
+width: 20px;
+height: 20px;
+}
+
+.parent_section .header .button{
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.parent_section .rain{
+    width: 300px;
+
+}
+
+.parent_section  .section_one{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+
+}
+.parent_section  .section_one .h2{
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.parent_section  .section_one .h3{
+    font-size: 35px;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0 0 30px;
+}
+
+.section_two{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.section_two .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_two .one .humidity{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+.section_two .two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_two .two .wind{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.section_two .p1,.p2,.p3,.p4,.p5{
+    color: white;
+}
